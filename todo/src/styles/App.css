@@ -1,0 +1,49 @@
+
+.App {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.App h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+
+.todo-list h3 {
+  font-size: 3rem;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.not-done {
+  color: crimson;
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+
+.todo-form {
+  margin: 10px;
+}
+
+
+.todo-form input {
+  font-size: 2rem;
+}
+
+.todo-form button {
+  font-size: 2rem;
+}
+
