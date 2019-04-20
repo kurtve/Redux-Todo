@@ -10,7 +10,6 @@
   align-items: center;
 }
 
-
 .App h1 {
   font-size: 6rem;
   font-weight: bold;
@@ -18,32 +17,42 @@
 }
 
 
-.todo-list h3 {
-  font-size: 3rem;
+.todo-list {
+  font-size: 2.4rem;
   margin: 20px;
-  cursor: pointer;
 }
 
-.not-done {
+.todo {
+  margin: 10px;
+  cursor: pointer;
   color: crimson;
 }
 
-.done {
+.todo.complete {
   text-decoration: line-through;
   color: grey;
 }
 
 
-.todo-form {
+.add-todo {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.todo-form input {
-  font-size: 2rem;
+.add-todo h3 {
+  font-size: 2.4rem;
+  margin: 5px;
 }
 
-.todo-form button {
-  font-size: 2rem;
+.add-todo input {
+  margin: 5px;
+  font-size: 1.8rem;
+}
+
+.add-todo button {
+  margin: 5px;
+  font-size: 1.8rem;
 }
 
