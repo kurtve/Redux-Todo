@@ -5,7 +5,7 @@ import { toggleTodo } from '../actions';
 
 
 const mapStateToProps = state => ({
-	todos: state.todos
+	todos: state.todoReducer.todos
 });
 
 const TodoList = (props) => {
@@ -23,4 +23,4 @@ const TodoList = (props) => {
 };
 
 
-export default connect(mapStateToProps, {toggleTodo})(TodoList);
+export default connect(mapStateToProps, { toggleTodo })(TodoList);

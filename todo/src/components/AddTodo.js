@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { addTodo } from '../actions';
 
 
-
 class AddTodo extends React.Component {
 
 	state = { newtodo: '' };
@@ -32,4 +31,4 @@ class AddTodo extends React.Component {
     }
 }
 
-export default connect(null, {addTodo})(AddTodo);
+export default connect(null, { addTodo })(AddTodo);
